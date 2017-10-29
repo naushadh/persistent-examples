@@ -1,0 +1,54 @@
+name:                stream
+version:             0.1.0.0
+-- synopsis:
+-- description:
+license:             BSD3
+license-file:        LICENSE
+author:              Naushadh
+maintainer:          Naushadh@protonmail.com
+copyright:           2017 Naushadh
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+library
+  default-language:    Haskell2010
+  build-depends:
+      base >= 4.7 && < 5
+    , persistent
+    , persistent-template
+    , conduit
+    , resourcet
+  exposed-modules:
+      Database.PersistExample.Stream
+  other-modules:
+      Database.PersistExample.Schema
+
+executable doList
+  default-language:    Haskell2010
+  build-depends:
+      base >= 4.7 && < 5
+    , stream
+    , persistent-mysql-haskell
+    , monad-logger
+  hs-source-dirs:
+    doList
+  main-is:
+    Main.hs
+  ghc-options:
+    -O2
+
+executable doStream
+  default-language:    Haskell2010
+  build-depends:
+      base >= 4.7 && < 5
+    , stream
+    , persistent-mysql-haskell
+    , monad-logger
+  hs-source-dirs:
+    doStream
+  main-is:
+    Main.hs
+  ghc-options:
+    -O2
