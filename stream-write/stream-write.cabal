@@ -1,0 +1,56 @@
+name:                stream-write
+version:             0.1.0.0
+-- synopsis:
+-- description:
+license:             BSD3
+license-file:        LICENSE
+author:              Naushadh
+maintainer:          Naushadh@protonmail.com
+copyright:           2017 Naushadh
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+library
+  default-language:
+      Haskell2010
+  build-depends:
+      base >= 4.7 && < 5
+    , text
+    , persistent
+    , persistent-template
+    , conduit
+    , resourcet
+    , transformers
+    , QuickCheck
+    , quickcheck-instances
+    , time
+  exposed-modules:
+      Database.PersistExample.Stream
+  other-modules:
+      Database.PersistExample.Schema
+
+benchmark batching-vs-loop
+  default-language:
+      Haskell2010
+  type:
+      exitcode-stdio-1.0
+  hs-source-dirs:
+      bench/batching-vs-loop
+  main-is:
+      Main.hs
+  build-depends:
+      base
+    , stream-write
+    , conduit
+    , persistent
+    , persistent-postgresql
+    , resource-pool
+    , monad-logger
+    , monad-control
+    , deepseq
+    , gauge
+    , text
+  ghc-options:
+      -O2

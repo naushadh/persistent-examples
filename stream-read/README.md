@@ -1,4 +1,4 @@
-# stream
+# stream-read
 
 Back-end agnostic functionality to demo stream processing in `persistent`.
 

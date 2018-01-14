@@ -1,4 +1,13 @@
-resolver: lts-9.6
+resolver: lts-10.3
 
 packages:
 - ./stream-read
+- ./stream-write
+
+extra-deps:
+- git: git@github.com:naushadh/persistent.git
+  commit: aed32ab9a987a23e5ce9b421e4ff9cdbb371c190
+  subdirs:
+  - persistent
+  - persistent-postgresql
+  - persistent-mysql
