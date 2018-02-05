@@ -8,15 +8,14 @@ Specifically, the `library` component itself is back-end agonistic, but each `ex
 
 ### BatchingVsLoop
 
-Comparing performance between performing multiple looped database calls and a batched one. Persistent does not support batched inserts yet, however there is a [PR](https://github.com/yesodweb/persistent/pull/770) to do so. This sample project was put together to demo performance gains of batching. Note: Benchmarks done using a local database.
+Comparing performance between performing multiple looped database calls and a batched one. Persistent ~~does not support batched inserts yet~~ supports batching. This sample project was put together to demo performance gains of batching for [#770](https://github.com/yesodweb/persistent/pull/770). Note: Benchmarks done using a local database.
 
 #### Running benchmarks
 
 ```bash
 $ stack build --pedantic --bench
 ... # should build and run benchmarks. run command below if it didn't run
-$ stream-write/.stack-work/dist/x86_64-osx/Cab
-al-2.0.1.0/build/batching-vs-loop/batching-vs-loop
+$ stream-write/.stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/batching-vs-loop/batching-vs-loop
 ... # benchmark results
 ```
 

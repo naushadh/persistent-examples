@@ -52,5 +52,6 @@ benchmark batching-vs-loop
     , deepseq
     , gauge
     , text
+    , unliftio-core
   ghc-options:
       -O2

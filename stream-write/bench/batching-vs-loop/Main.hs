@@ -14,6 +14,7 @@ import           Data.Pool (Pool)
 import           Control.Monad.Logger (runNoLoggingT, NoLoggingT)
 import           Control.Monad.Trans.Control (MonadBaseControl)
 import qualified Control.DeepSeq as DeepSeq
+import           Control.Monad.IO.Unlift (MonadUnliftIO)
 
 main :: IO ()
 main
@@ -53,6 +54,7 @@ runDB
   ::( P.BaseBackend backend ~ P.SqlBackend
     , P.IsPersistBackend backend
     , MonadBaseControl IO m
+    , MonadUnliftIO m
     )
   => Pool backend
   -> Stream.ReaderT backend (NoLoggingT m) a
