@@ -1,0 +1,35 @@
+name:                model-org-component
+version:             0.1.0.0
+-- synopsis:
+-- description:
+license:             BSD3
+license-file:        LICENSE
+author:              Naushadh
+maintainer:          Naushadh@protonmail.com
+copyright:           2018 Naushadh
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+library
+  default-language:    Haskell2010
+  build-depends:
+      base >= 4.7 && < 5
+    , persistent
+    , persistent-template
+    , text
+    , time
+    , template-haskell
+  exposed-modules:
+      Database.PersistExample.Schema
+  other-modules:
+      Database.PersistExample.MyRecord1.Schema
+    , Database.PersistExample.MyRecord2.Schema
+    , Database.PersistExample.MyRecord3.Schema
+    , Database.PersistExample.MyRecord1And2.Schema
+    , Database.PersistExample.Migration
+    , Database.PersistExample.Util
+  ghc-options:
+    -j
+    -O2

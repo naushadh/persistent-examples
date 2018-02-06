@@ -3,6 +3,8 @@ resolver: lts-10.4
 packages:
 - ./stream-read
 - ./stream-write
+- ./model-organization/monolith
+- ./model-organization/component
 
 extra-deps:
 - persistent-2.8.1

@@ -1,0 +1,50 @@
+MyRecord1
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord1 value1
+  deriving Show
+
+MyRecord1Dep
+  myRecord1Id MyRecord1Id
+  value1 Int
+  value2 Int Maybe
+  UniqueMyRecord1Dep myRecord1Id value1
+  deriving Show
+
+MyRecord2
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord2 value3
+  deriving Show
+
+MyRecord2Dep
+  myRecord2Id MyRecord2Id
+  value3 Text
+  value4 Text Maybe
+  deriving Show
+
+MyRecord3
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord3 value5
+  deriving Show
+
+MyRecord1And2Dep
+  myRecord1Id MyRecord1Id
+  myRecord2Id MyRecord2Id
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord2And3Dep myRecord1Id myRecord2Id
+  deriving Show

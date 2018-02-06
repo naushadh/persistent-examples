@@ -1,0 +1,17 @@
+MyRecord1
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord1 value1
+  deriving Show
+
+MyRecord1Dep
+  myRecord1Id MyRecord1Id
+  value1 Int
+  value2 Int Maybe
+  UniqueMyRecord1Dep myRecord1Id value1
+  deriving Show
+
