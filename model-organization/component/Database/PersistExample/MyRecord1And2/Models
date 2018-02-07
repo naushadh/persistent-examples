@@ -1,0 +1,9 @@
+MyRecord1And2Dep
+  myRecord1Id MyRecord1Id
+  myRecord2Id MyRecord2Id
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord2And3Dep myRecord1Id myRecord2Id
+  deriving Show
+
+
