@@ -48,3 +48,173 @@ MyRecord1And2Dep
   value6 UTCTime Maybe
   UniqueMyRecord2And3Dep myRecord1Id myRecord2Id
   deriving Show
+
+MyRecord4
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord4 value5
+  deriving Show
+
+MyRecord5
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord5 value5
+  deriving Show
+
+MyRecord6
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord6 value5
+  deriving Show
+
+MyRecord7
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord7 value5
+  deriving Show
+
+MyRecord8
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord8 value5
+  deriving Show
+
+MyRecord9
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord9 value5
+  deriving Show
+
+MyRecord10
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord10 value5
+  deriving Show
+
+MyRecord11
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord11 value5
+  deriving Show
+
+MyRecord12
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord12 value5
+  deriving Show
+
+MyRecord13
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord13 value5
+  deriving Show
+
+MyRecord14
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord14 value5
+  deriving Show
+
+MyRecord15
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord15 value5
+  deriving Show
+
+MyRecord16
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord16 value5
+  deriving Show
+
+MyRecord17
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord17 value5
+  deriving Show
+
+MyRecord18
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord18 value5
+  deriving Show
+
+MyRecord19
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord19 value5
+  deriving Show
+
+MyRecord20
+  value1 Int
+  value2 Int Maybe
+  value3 Text
+  value4 Text Maybe
+  value5 UTCTime
+  value6 UTCTime Maybe
+  UniqueMyRecord20 value5
+  deriving Show

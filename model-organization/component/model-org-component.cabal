@@ -27,6 +27,23 @@ library
       Database.PersistExample.MyRecord1.Schema
     , Database.PersistExample.MyRecord2.Schema
     , Database.PersistExample.MyRecord3.Schema
+    , Database.PersistExample.MyRecord4.Schema
+    , Database.PersistExample.MyRecord5.Schema
+    , Database.PersistExample.MyRecord6.Schema
+    , Database.PersistExample.MyRecord7.Schema
+    , Database.PersistExample.MyRecord8.Schema
+    , Database.PersistExample.MyRecord9.Schema
+    , Database.PersistExample.MyRecord10.Schema
+    , Database.PersistExample.MyRecord11.Schema
+    , Database.PersistExample.MyRecord12.Schema
+    , Database.PersistExample.MyRecord13.Schema
+    , Database.PersistExample.MyRecord14.Schema
+    , Database.PersistExample.MyRecord15.Schema
+    , Database.PersistExample.MyRecord16.Schema
+    , Database.PersistExample.MyRecord17.Schema
+    , Database.PersistExample.MyRecord18.Schema
+    , Database.PersistExample.MyRecord19.Schema
+    , Database.PersistExample.MyRecord20.Schema
     , Database.PersistExample.MyRecord1And2.Schema
     , Database.PersistExample.Migration
     , Database.PersistExample.Util
