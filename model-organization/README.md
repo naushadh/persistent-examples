@@ -101,7 +101,7 @@ Cons:
   Building library for model-org-monolith-0.1.0.0..
   [1 of 1] Compiling Database.PersistExample.Schema ( Database/PersistExample/Schema.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Database/PersistExample/Schema.o )
   model-org-monolith-0.1.0.0: copy/register
-  Installing library in /Users/naushadhali/Dev/open_source/persistent-examples/.stack-work/install/x86_64-osx/lts-10.4/8.2.2/lib/x86_64-osx-ghc-8.2.2/model-org-monolith-0.1.0.0-4J9AfazLsAoFuNrx7FJKH8
+  Installing library in .stack-work/install/x86_64-osx/lts-10.4/8.2.2/lib/x86_64-osx-ghc-8.2.2/model-org-monolith-0.1.0.0-4J9AfazLsAoFuNrx7FJKH8
   Registering library for model-org-monolith-0.1.0.0..
       424,572,704 bytes allocated in the heap
       597,573,584 bytes copied during GC
@@ -144,7 +144,7 @@ Cons:
   Building library for model-org-monolith-0.1.0.0..
   [1 of 1] Compiling Database.PersistExample.Schema ( Database/PersistExample/Schema.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Database/PersistExample/Schema.o ) [Database/PersistExample/Models changed]
   model-org-monolith-0.1.0.0: copy/register
-  Installing library in /Users/naushadhali/Dev/open_source/persistent-examples/.stack-work/install/x86_64-osx/lts-10.4/8.2.2/lib/x86_64-osx-ghc-8.2.2/model-org-monolith-0.1.0.0-4J9AfazLsAoFuNrx7FJKH8
+  Installing library in .stack-work/install/x86_64-osx/lts-10.4/8.2.2/lib/x86_64-osx-ghc-8.2.2/model-org-monolith-0.1.0.0-4J9AfazLsAoFuNrx7FJKH8
   Registering library for model-org-monolith-0.1.0.0..
       435,217,736 bytes allocated in the heap
       343,965,232 bytes copied during GC
@@ -217,7 +217,7 @@ Cons:
   [23 of 24] Compiling Database.PersistExample.Migration ( Database/PersistExample/Migration.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Database/PersistExample/Migration.o )
   [24 of 24] Compiling Database.PersistExample.Schema ( Database/PersistExample/Schema.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Database/PersistExample/Schema.o )
   model-org-component-0.1.0.0: copy/register
-  Installing library in /Users/naushadhali/Dev/open_source/persistent-examples/.stack-work/install/x86_64-osx/lts-10.4/8.2.2/lib/x86_64-osx-ghc-8.2.2/model-org-component-0.1.0.0-A6IxkrMbNiXCnaZwUhbNxM
+  Installing library in .stack-work/install/x86_64-osx/lts-10.4/8.2.2/lib/x86_64-osx-ghc-8.2.2/model-org-component-0.1.0.0-A6IxkrMbNiXCnaZwUhbNxM
   Registering library for model-org-component-0.1.0.0..
       442,072,424 bytes allocated in the heap
       915,672,008 bytes copied during GC
@@ -260,7 +260,7 @@ Cons:
   Building library for model-org-component-0.1.0.0..
   [14 of 24] Compiling Database.PersistExample.MyRecord20.Schema ( Database/PersistExample/MyRecord20/Schema.hs, .stack-work/dist/x86_64-osx/Cabal-2.0.1.0/build/Database/PersistExample/MyRecord20/Schema.o ) [Database/PersistExample/MyRecord20/Models changed]
   model-org-component-0.1.0.0: copy/register
-  Installing library in /Users/naushadhali/Dev/open_source/persistent-examples/.stack-work/install/x86_64-osx/lts-10.4/8.2.2/lib/x86_64-osx-ghc-8.2.2/model-org-component-0.1.0.0-A6IxkrMbNiXCnaZwUhbNxM
+  Installing library in .stack-work/install/x86_64-osx/lts-10.4/8.2.2/lib/x86_64-osx-ghc-8.2.2/model-org-component-0.1.0.0-A6IxkrMbNiXCnaZwUhbNxM
   Registering library for model-org-component-0.1.0.0..
       471,110,672 bytes allocated in the heap
       476,087,040 bytes copied during GC
